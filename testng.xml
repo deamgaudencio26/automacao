@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="11" name="Suite" parallel="tests">
+
+	<test name='galaxy j7 metal'>
+		<parameter name="devicename" value="52037d964db9b37f" />
+		<parameter name="udid" value="52037d964db9b37f" />
+		<classes>
+			<class name="br.cursoAppium.test.AtualizarColetor" />
+		</classes>
+	</test>
+
+	<test name='galaxy j2 Pro'>
+		<parameter name="devicename" value="c2cad4a2" />
+		<parameter name="udid" value="c2cad4a2" />
+		<classes>
+			<class name="br.cursoAppium.test.AtualizarColetor" />
+		</classes>
+
+	</test>
+
+	<test name='Motog3'>
+		<parameter name="devicename" value="0021660192" />
+		<parameter name="udid" value="0021660192" />
+		<classes>
+			<class name="br.cursoAppium.test.AtualizarColetor" />
+		</classes>
+
+	</test>
+
+	<test name='galaxy j5 prime'>
+		<parameter name="devicename" value="4200ae95da1d64d9" />
+		<parameter name="udid" value="4200ae95da1d64d9" />
+		<classes>
+			<class name="br.cursoAppium.test.AtualizarColetor" />
+		</classes>
+
+	</test>
+
+	<test name='Motog 2°'>
+		<parameter name="devicename" value="0020114911" />
+		<parameter name="udid" value="0020114911" />
+		<classes>
+			<class name="br.cursoAppium.test.AtualizarColetor" />
+		</classes>
+
+	</test>
+
+	<test name='Galaxy j6'>
+		<parameter name="devicename" value="0020114911" />
+		<parameter name="udid" value="0020114911" />
+		<classes>
+			<class name="br.cursoAppium.test.AtualizarColetor" />
+		</classes>
+
+	</test>
+
+
+
+	<test name='Galaxy_j2Pro 019'>
+		<parameter name="devicename" value="595bd683" />
+		<parameter name="udid" value="595bd683" />
+		<classes>
+			<class name="br.cursoAppium.test.AtualizarColetor" />
+		</classes>
+
+	</test>
+
+
+	<test name='Galaxy_j2Prime 01'>
+		<parameter name="devicename" value="4200d5e501be2549" />
+		<parameter name="udid" value="4200d5e501be2549" />
+		<classes>
+			<class name="br.cursoAppium.test.AtualizarColetor" />
+		</classes>
+
+	</test>
+
+
+
+	<test name='Galaxy_j7'>
+		<parameter name="devicename" value="3300e5d697f8626f" />
+		<parameter name="udid" value="3300e5d697f8626f" />
+		<classes>
+			<class name="br.cursoAppium.test.AtualizarColetor" />
+		</classes>
+
+	</test>
+
+	<test name='Galaxy_j2Prime 02'>
+		<parameter name="devicename" value="420016b301a8b3bb" />
+		<parameter name="udid" value="420016b301a8b3bb" />
+		<classes>
+			<class name="br.cursoAppium.test.AtualizarColetor" />
+		</classes>
+
+	</test>
+
+</suite> <!-- Suite -->
